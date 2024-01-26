@@ -1,0 +1,30 @@
+.profile img{
+    height: 450px;
+    width: 350px;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileText{
+    display: flex;
+    
+    gap: 40px;
+    flex-direction: column;
+}
+.profile{
+    display: flex;
+    gap: 50px;
+}
+.name input{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

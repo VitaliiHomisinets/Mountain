@@ -1,0 +1,24 @@
+
+.titleBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.textTitleBlock{
+    max-width: 400px;
+}
+.imgTitleBlock img{
+    height: 600px;
+    width: 450px;
+}
+.textTitleBlock h2{
+    text-align: center;
+}
+.mapContent{
+    padding-bottom: 40px;
+}
+.drop{
+    display: flex;
+    justify-content: center;
+}

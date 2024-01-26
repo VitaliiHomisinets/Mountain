@@ -1,0 +1,43 @@
+header{
+  
+    color: #fff;
+    padding: 0 80px;
+    padding: 30px 80px 80px 80px; 
+    
+}
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+}
+.nav_list_item{
+    text-decoration: none;
+    color: #fff;
+}
+.nav_list_item:hover{
+    color:#FBD784 ;
+    transition: .3s;
+}
+.account{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.nav_list li{
+    font-size: 25px;
+}
+.account span{
+    font-size: 25px;
+}

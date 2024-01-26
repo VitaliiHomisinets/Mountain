@@ -1,0 +1,125 @@
+.level{
+    background-image: url("../../public/img/bgimg1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+.levelImg img{
+    height: 500px;
+    width: 500px;
+}
+.text p{
+    max-width:500px ;
+    align-items: center;
+    font-size: 20px;
+}
+.levelContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titliLevel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FBD784;
+    padding-bottom: 30px ;
+}
+.typeLevel li p{
+    max-width: 400px;
+    font-style: italic;
+}
+.typeLevel{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: center;
+    max-width: 1000px;
+}
+.typeLevel li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+   
+}
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f26a;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.63);
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  .card span{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .card_content {
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover .card_content {
+    transform: rotateX(0deg);
+  }
+  
+  .card_title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #e3e3e3;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #a8a8a8;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+  
+  .card_description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+  }
+  

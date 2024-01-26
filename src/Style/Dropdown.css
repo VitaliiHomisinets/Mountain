@@ -1,0 +1,22 @@
+.accordion {
+    --bs-accordion-bg: #ffffff1c;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-active-color: #ffffff;
+    --bs-accordion-active-bg: #f1f6ff21;
+    --bs-accordion-btn-color: #ffffff;
+    width: 900px;
+  }
+  
+  .accordion [data-bs-toggle="collapse"]::after {
+    background-color: white;
+    filter: invert(100%) !important;
+  }
+.accordion-item {
+    color: #ffffff;
+    background-color: #fff0;
+    padding-bottom: 20px;
+    border: none;
+}
+
+ 
+  
